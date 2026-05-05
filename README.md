@@ -38,11 +38,11 @@ Secondly, 8 to 3 encoder was implemented. The encoder outputs a 3 bit binary cod
 
 ## Observations
 
-1.The multiplexer correctly selected the input based on select lines
-2.Hierarchical design using 2:1 MUXes worked efficiently
-3.The priority encoder correctly identified the highest-priority input when multiple inputs were active
-4.When all inputs were 0, the output remained 0 and the valid signal was inactive
-5.The circuits behaved as expected for all tested combinations
+1. The multiplexer correctly selected the input based on select lines
+2. Hierarchical design using 2:1 MUXes worked efficiently
+3. The priority encoder correctly identified the highest-priority input when multiple inputs were active
+4. When all inputs were 0, the output remained 0 and the valid signal was inactive
+5. The circuits behaved as expected for all tested combinations
 ---
 
 ## Result
